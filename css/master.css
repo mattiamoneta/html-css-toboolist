@@ -1,11 +1,4 @@
-/* General */
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
+/* Colors */
 
 .color-default{background-color: #00a1e6;}
 .color-violet{background-color: #9f52dc;}
@@ -13,6 +6,17 @@
 .color-orange{background-color: #ff8d25;}
 .color-lime{background-color: #9bcb35;}
 .color-fuchsia{background-color: #ed3b8f;}
+
+
+/* General */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
 
 .btn{
     padding: 8px 10px;
@@ -65,12 +69,16 @@ header h1{
 /* Tasks Wrapper */
 
 .toolbar{
-    padding: 20px 30px;
-    border-bottom: 1px solid gray;
+    padding: 20px 50px;
+    border-bottom: 1px solid #f4f7f8;
 }
 
 .tasks-wrapper{
-    padding: 30px;
+    padding: 30px 50px;
+}
+
+.tasks-group .tasks-title h3{
+    font-size: 1.5em;
 }
 
 .tasks-group .tasks-title h3::before{
@@ -79,15 +87,15 @@ header h1{
 }
 
 .tasks-group .task{
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
 
 .tasks-group .item.checked::before{
     display: inline-block;
     text-align: center;
-    line-height: 20px;
-    width: 20px;
-    height: 20px;
+    line-height: 15px;
+    width: 15px;
+    height: 15px;
     padding: 2px;
     border-radius: 50%;
     border: 1px solid #11c0a3;
@@ -99,9 +107,9 @@ header h1{
 .tasks-group .item.unchecked::before{
     display: inline-block;
     text-align: center;
-    line-height: 20px;
-    width: 20px;
-    height: 20px;
+    line-height: 15px;
+    width: 15px;
+    height: 15px;
     padding: 2px;
     border-radius: 50%;
     border: 1px solid #ff000e;
@@ -112,7 +120,8 @@ header h1{
 
 .badge{
     border-radius: 15px;
-    padding: 3px 15px;
-    font-size: .9em;
+    padding: 6px 15px;
+    font-size: .8em;
     margin-left: 10px;
+    color: white;
 }
