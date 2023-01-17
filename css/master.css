@@ -19,14 +19,16 @@
 
 
 .btn{
-    padding: 8px 10px;
+    padding: 5px 10px;
     border-radius: 5px;
     border: 0;
     font-size: 1em;
 }
 
+
 .btn-regular{
     background-color: #00a2ef;
+    border: 1px solid #00a2ef;;
 }
 
 .btn-outline{
@@ -42,7 +44,7 @@ body{
 
 header{
     background-color: white;
-    padding: 10px;
+    padding: 15px 20px;
 }
 
 header img{
@@ -69,8 +71,8 @@ header h1{
 /* Tasks Wrapper */
 
 .toolbar{
-    padding: 20px 50px;
-    border-bottom: 1px solid #f4f7f8;
+    padding: 15px 50px;
+    border-bottom: 2px solid #f4f7f8;
 }
 
 .tasks-wrapper{
